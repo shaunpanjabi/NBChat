@@ -13,8 +13,8 @@ def handle_data():
 def handle_meow():
     spoken = request.values
     chat.append(spoken['name'] + " : " + spoken['message'])
-    return "dicksoutfornonbiasedchat"
+    return "nonbiasedchat"
 
 if __name__=='__main__':
-    chat = ['dont be biased, bitch']
+    chat = ['dont be biased *airhorn*']
     app.run(host='0.0.0.0')
